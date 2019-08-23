@@ -189,31 +189,4 @@ public class Controller
         SceneManager.LoadScene("Menu");
     }
 
-    //public void save()
-    //{
-    //    Model model = MVC.model;
-    //    string filename = Application.persistentDataPath + "/model.dat";
-    //    BinaryFormatter bf = new BinaryFormatter();
-    //    FileStream fs = new FileStream(filename, FileMode.Create);
-    //    ModelData data = new ModelData(model);
-    //    bf.Serialize(fs, data);
-    //    fs.Close();
-    //}
-
-    //public ModelData load()
-    //{
-    //    string filename = Application.persistentDataPath + "/model.dat";
-    //    if (File.Exists(filename))
-    //    {
-    //        BinaryFormatter bf = new BinaryFormatter();
-    //        FileStream fs = new FileStream(filename, FileMode.Open);
-    //        ModelData data = bf.Deserialize(fs) as ModelData;
-    //        fs.Close();
-    //        return data;
-    //    }
-    //    else
-    //    {
-    //        return null;
-    //    }
-    //}
 }
